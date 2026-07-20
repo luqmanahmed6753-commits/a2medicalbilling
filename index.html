@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1 Medical Billing & RCM Automation</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-blue-600 text-white p-2.5 rounded-lg">
+                        <i class="fa-solid fa-file-invoice-dollar text-2xl"></i>
+                    </div>
+                    <span class="font-bold text-2xl text-slate-800">A1 <span class="text-blue-600">Medical Billing</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8 font-medium text-gray-600">
+                    <a href="#about" class="hover:text-blue-600 transition">About Us</a>
+                    <a href="#services" class="hover:text-blue-600 transition">Services</a>
+                    <a href="#tech" class="hover:text-blue-600 transition">Technology</a>
+                    <a href="#contact" class="bg-blue-600 text-white px-5 py-2.5 rounded-lg hover:bg-blue-700 transition shadow-sm">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-slate-900 to-blue-900 text-white py-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 space-y-6 mb-10 md:mb-0">
+                <span class="bg-blue-500/20 text-blue-300 text-sm font-semibold px-4 py-1.5 rounded-full border border-blue-400/30">Next-Gen Revenue Cycle Management</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">Fast, Accurate Billing & Automated ERA Processing</h1>
+                <p class="text-gray-300 text-lg">We streamline medical billing, automate complex EOB data entry, and optimize claim reconciliation to ensure maximum revenue recovery with zero hassle.</p>
+                <div class="flex space-x-4">
+                    <a href="#contact" class="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg hover:bg-blue-500 transition shadow-lg">Get a Free Audit</a>
+                    <a href="#services" class="bg-slate-800 text-gray-200 font-semibold px-6 py-3 rounded-lg hover:bg-slate-700 transition border border-slate-700">Explore Services</a>
+                </div>
+            </div>
+            <div class="md:w-5/12 bg-white/10 backdrop-blur-md p-8 rounded-2xl border border-white/10 text-center">
+                <i class="fa-solid fa-chart-line text-6xl text-blue-400 mb-4"></i>
+                <h3 class="text-2xl font-bold mb-2">Maximize Claim Recovery</h3>
+                <p class="text-gray-300 text-sm mb-6">Automated ANSI X12 835 ERA generation and seamless integration with Medisoft & Elation EHR systems.</p>
+                <div class="grid grid-cols-2 gap-4 text-left">
+                    <div class="bg-white/5 p-4 rounded-lg border border-white/5">
+                        <div class="text-3xl font-bold text-blue-400">99.2%</div>
+                        <div class="text-xs text-gray-400">First-Pass Claim Rate</div>
+                    </div>
+                    <div class="bg-white/5 p-4 rounded-lg border border-white/5">
+                        <div class="text-3xl font-bold text-blue-400">&lt;24hrs</div>
+                        <div class="text-xs text-gray-400">ERA Turnaround</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="text-3xl font-bold text-slate-900">Comprehensive RCM Services</h2>
+            <p class="text-gray-600 mt-3">Combining hands-on healthcare expertise with automated workflows to handle every stage of your revenue cycle.</p>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-800">Automated EOB Parsing</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Convert paper and PDF EOBs directly into structured ANSI ASC X12 835 ERA files ready for instant Medisoft Revenue Management upload.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-file-signature"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-800">Full Claims Lifecycle</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">End-to-end claim creation, charge entry, payment posting, and patient statement processing for practices of all sizes.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl font-bold mb-6">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-3 text-slate-800">Data Reconciliation</h3>
+                <p class="text-gray-600 text-sm leading-relaxed">Custom Python-driven data audits to cross-verify billing codes, deposits, and patient balances against EHR records.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology & Integration Section -->
+    <section id="tech" class="bg-slate-100 py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6">Software Integrations & Automation</h2>
+                    <p class="text-gray-600 mb-6 leading-relaxed">We specialize in connecting disparate healthcare platforms. Whether your practice runs on Medisoft, Elation EHR, or custom management tools, we build automated bridge scripts to eliminate manual data entry errors.</p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-blue-600"></i>
+                            <span class="font-medium text-slate-700">Medisoft Revenue Management & EDI Generation</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-blue-600"></i>
+                            <span class="font-medium text-slate-700">Elation EHR Charge & Payment Reconciliation</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-blue-600"></i>
+                            <span class="font-medium text-slate-700">OCR Document Parsing for Hospital Facesheets</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                    <h3 class="font-bold text-slate-800 mb-4 text-lg">Request a Customized System Demonstration</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-500 uppercase mb-1">Practice Name</label>
+                            <input type="text" placeholder="e.g. Metro Medical Care" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-500 uppercase mb-1">Primary EHR / Billing Software</label>
+                            <input type="text" placeholder="Medisoft, Elation, etc." class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-gray-500 uppercase mb-1">Work Email</label>
+                            <input type="email" placeholder="contact@practice.com" class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-600 outline-none">
+                        </div>
+                        <button type="button" class="w-full bg-blue-600 text-white font-bold py-3 rounded-lg hover:bg-blue-700 transition">Request Demo</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-slate-900 text-white py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-8 items-center">
+            <div>
+                <span class="text-2xl font-bold">A1 <span class="text-blue-400">Medical Billing</span></span>
+                <p class="text-gray-400 text-sm mt-2">Empowering healthcare providers with accurate billing and custom automated workflow solutions.</p>
+            </div>
+            <div class="text-left md:text-right text-sm text-gray-400 space-y-1">
+                <p><i class="fa-solid fa-envelope mr-2"></i> info@a2medicalbilling.net</p>
+                <p><i class="fa-solid fa-shield-halved mr-2"></i> HIPAA Compliant Infrastructure</p>
+                <p class="text-xs text-gray-500 mt-4">&copy; 2026 A1 Medical Billing. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
